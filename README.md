@@ -24,7 +24,7 @@ Before running the script, replace the following **placeholder values** in the c
 | `AUTH_TOKEN`  | A valid **Bearer** authorization token               | `"Bearer your-auth-token"`                       |
 | `TABLE_NAMES` | A list of table names to delete records from         | `["table1", "table2", "table3"]`                 |
 
-The script constructs the full API base URL as follows:
+`The script constructs the full API base URL as follows:`
 
 ```python
 BASE_VAULT_URL = f"{VAULT_URL}/v1/vaults/{VAULT_ID}"
