@@ -7,12 +7,12 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 
 # Configuration
-VAULT_ID = "c486af2485df44699ac0426db45a2979"
-VAULT_URL = "https://ebfc9bee4242.vault.skyflowapis.com"
+VAULT_ID = "<your-vault-id>"
+VAULT_URL = "<your-vault-url>"
 # Static list of tables to delete from:
-TABLE_NAMES = ["email", "date", "numeric", "alphanumeric", "ip_address"]
+TABLE_NAMES = ["table1", "table2", "table3", "table4", "table5"]
 BASE_VAULT_URL = f"{VAULT_URL}/v1/vaults/{VAULT_ID}"
-AUTH_TOKEN = "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2MiOiJ4ZDc2YWNmNTY4MzE0ZjkxYTlmNWU5YTE2ZmJjZGUyZSIsImF1ZCI6Imh0dHBzOi8vbWFuYWdlLnNreWZsb3dhcGlzLmNvbSIsImV4cCI6MTc0OTE0ODAwNywiaWF0IjoxNzQ5MDYxNjA3LCJpc3MiOiJzYS1hdXRoQG1hbmFnZS5za3lmbG93YXBpcy5jb20iLCJqdGkiOiJkYzY2YjJhM2VlY2M0ODRmOGZlZTI4ODZmOGI2M2VjZSIsInN1YiI6ImRkN2U2ZTQ1Y2ZlNTRjNjY4ODM1ZGIwYTE2ODU3ZmYwIn0.Q94jrxvGPSCmoj1g7Muo48P30pYPT7nwP_Cq-nAOEtk04sLQ6EIsIlJVy6ksjpCSlh7uONP1kgTE_mcxZ8QK55m9N5wNFwhiMkk9yqW3YCi_4No8i_CAaSvhnENSUePakuPdCP1YsWRcW4yo8A0NGUI2n6nBQ3-wrQJZGArPSP7BTtmQ6u8DK9tJEixbVnoukYqaMK-SfTvYOO6JqAB5H3zmsuut69ZlNWVlKvZE6_seIviuAq7kAHuh3_6NjbXoR0mVC4uh7vbQ1nxGAmvGIzK3_rRJQeqUMBZUPo7FRUEiQ6o1b7cxyVJYnJiIeCRp5K1V1uRm6RKybWT5dCwMng"
+AUTH_TOKEN = "Bearer eyJhbGciOi...... ....."
 HEADERS = {
     "Authorization": AUTH_TOKEN,
     "Content-Type": "application/json"
