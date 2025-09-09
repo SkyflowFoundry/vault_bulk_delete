@@ -12,7 +12,7 @@ VAULT_URL = "<your-vault-url>"
 # Static list of tables to delete from:
 TABLE_NAMES = ["table1", "table2", "table3", "table4", "table5"]
 BASE_VAULT_URL = f"{VAULT_URL}/v1/vaults/{VAULT_ID}"
-AUTH_TOKEN = "Bearer eyJhbGciOi... ... ....."
+AUTH_TOKEN = "Bearer <your-auth-token>"
 HEADERS = {
     "Authorization": AUTH_TOKEN,
     "Content-Type": "application/json"
